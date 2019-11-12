@@ -35,3 +35,21 @@ print(len(s))
 
 # replace
 print(s.replace('world', 'everyone'))
+
+# Count
+sub = 'h'
+print(s.count(sub))
+
+print(s.startswith('hello'))  # starts with
+
+print(s.endswith('d'))  # ends with
+
+print(s.split())  # split into a list
+
+print(s.find('r'))  # find position
+
+print(s.isalnum())  # alphanumeric
+
+print(s.isalpha())  # alphabetic
+
+print(s.isnumeric())  # numeric
