@@ -28,3 +28,15 @@ class Customer(User):
 
     def greeting(self):
         return f'My name is {self.name} and I am {self.age} and my balance is {self.balance}'
+
+
+# Init user object
+nancy = User('Nancy Blake', 'nblake@gmail.com', 29)
+# init customer object
+greg = Customer('Greg Matthews', 'gmatts@yahoo.com', 14)
+
+greg.set_balance(500)
+print(greg.greeting())
+
+nancy.has_birthday()
+print(nancy.greeting())
