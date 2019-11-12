@@ -16,7 +16,7 @@ def getSum(num1, num2):
 # lambda function is a small anonymous function; can take any number of arguments, but can only have one expression
 
 
-# getSum(num1, num2): return num1 + num2
+# getSum = lambda num1, num2 : num1 + num2
 
 
 print(getSum(10, 3))
