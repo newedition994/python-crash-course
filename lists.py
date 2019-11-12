@@ -17,3 +17,11 @@ fruits.insert(2, 'Strawberries')  # insert into position
 fruits[0] = 'Blueberries'  # change value
 
 fruits.pop(2)  # remove the pop
+
+fruits.reverse()  # reverse list
+
+fruits.sort()  # sort list
+
+fruits.sort(reverse=True)  # reverse sort
+
+print(fruits)
