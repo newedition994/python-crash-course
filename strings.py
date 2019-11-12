@@ -15,3 +15,23 @@ print('My name is {name} and I am {age}'.format(name=name, age=age))
 print(f'Hello, my name is {name} and I am {age}')
 
 # String Methods
+
+s = 'helloworld'
+
+# Capitalize string
+print(s.capitalize())
+
+# uppercase
+print(s.upper())
+
+# lower
+print(s.lower())
+
+# swap case
+print(s.swapcase())
+
+# length
+print(len(s))
+
+# replace
+print(s.replace('world', 'everyone'))
