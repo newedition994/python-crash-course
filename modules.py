@@ -10,7 +10,7 @@ from camelcase import CamelCase
 
 # Import custom module
 import validator
-#from validator import validate_email
+from validator import validate_email
 
 # today = datetime.date.today()
 today = date.today()
